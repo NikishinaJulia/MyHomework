@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyHomework1</string>
+    <string name="welcome_message">Доброе утро!</string>
+    <string name="news">Самые свежие и актуальные последние новости за сегодня.</string>
+    <string name="news_button">Узнать</string>
+    <string name="terms_of_use">Вы согласны с нашим пользовательским соглашением</string>
+    <string name="ad_toggle_button">Вы можете выключить подпискуна наши новости</string>
+    <string name="textOff_ad">Включить рекламу</string>
+    <string name="textOn_ad">Выключить рекламу</string>
 </resources>

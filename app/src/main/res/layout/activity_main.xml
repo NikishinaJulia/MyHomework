@@ -1,18 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/greeting_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#AAAABB00"
+        android:gravity="center"
+        android:text="@string/welcome_message"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/news_today"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="#FF00CCAA"
+        android:gravity="left"
+        android:text="@string/news"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/news_button"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="@string/news_button"/>
+
+
+    <Switch
+        android:id="@+id/subscription_news_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_margin="20dp"
+        android:typeface="monospace"
+        android:text="Оформить подписку на наши новости"
+        android:textColor="#FFF00BFF"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/terms_of_use_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_margin="10dp"
+        android:text="@string/terms_of_use"
+        android:textColor="#FF0000FF"
+        android:outlineAmbientShadowColor="#FF0000FF"
+        android:outlineSpotShadowColor="#FF0000FF"
+        android:theme="@style/MyCheckBox"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ToggleButton
+        android:id="@+id/ad_toggle_button"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_toggle_button"
+        android:layout_marginBottom="100dp"
+        android:checked="true"
+        android:textOff="@string/textOff_ad"
+        android:textOn="@string/textOn_ad"
+        />
+</LinearLayout>
+</ScrollView>
