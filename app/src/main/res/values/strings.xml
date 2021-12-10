@@ -7,4 +7,12 @@
     <string name="ad_toggle_button">Вы можете выключить подпискуна наши новости</string>
     <string name="textOff_ad">Включить рекламу</string>
     <string name="textOn_ad">Выключить рекламу</string>
+    <string name="text_input">Введите текст</string>
+    <string name="name_input">Введите имя</string>
+    <string name="phone_input">Введите номер телефона</string>
+    <string name="number_input">Введите число</string>
+    <string name="password_input">Введите пароль</string>
+    <string name="email_input">Введите email</string>
+    <string name="data_input">Введите дату</string>
+    <string name="big_text_input">Введите большой текст</string>
 </resources>
