@@ -75,6 +75,11 @@
         android:inputType="textMultiLine"
         android:hint="@string/big_text_input"
         android:lines="3"/>
-
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        />
 </LinearLayout>
 </ScrollView>
