@@ -15,4 +15,5 @@
     <string name="email_input">Введите email</string>
     <string name="data_input">Введите дату</string>
     <string name="big_text_input">Введите большой текст</string>
+    <string name="subscription_news">Оформить подписку на наши новости</string>
 </resources>

@@ -50,7 +50,7 @@
         android:gravity="right"
         android:layout_margin="20dp"
         android:typeface="monospace"
-        android:text="Оформить подписку на наши новости"
+        android:text="@string/subscription_news"
         android:textColor="#FFF00BFF"
         android:textSize="15sp" />
 
